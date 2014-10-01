@@ -21,6 +21,7 @@ describe('gulp-angular-returns:app', function () {
     assert.file([
       'bower.json',
       'package.json',
+      'gulpfile.js',
       '.editorconfig',
       '.jshintrc'
     ]);
